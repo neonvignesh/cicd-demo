@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: neonvignesh/enrichprojects:${JOB_NAME}-${BUILD_NUMBER}
+        image: neonvignesh/enrichprojects:cicd-demo-14
         ports:
         - containerPort: 8080
